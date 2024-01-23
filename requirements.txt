@@ -1,0 +1,9 @@
+easydict==1.11
+imageio==2.26.0
+numpy==1.24.3
+Pillow==10.2.0
+PyYAML==6.0.1
+scipy==1.11.1
+torch==2.1.2
+torchvision==0.16.2
+tqdm==4.65.0
