@@ -1,0 +1,34 @@
+# Setup
+setup: single_task
+
+# Database
+train_db_name: cityscapes
+val_db_name: cityscapes 
+trBatch: 8
+valBatch: 8
+nworkers: 4
+
+# Optimizer and scheduler
+epochs: 75
+optimizer: adam
+optimizer_kwargs:
+   lr: 0.0005
+   weight_decay: 0.0001
+scheduler: cosine
+
+# Model
+model: stl 
+backbone: hrnet_w18
+backbone_kwargs:
+   pretrained: True
+   dilated: False
+head: hrnet
+
+# Tasks
+task_dictionary:
+   include_semseg: True
+   include_depth: True
+
+# Loss kwargs
+loss_kwargs:
+   loss_scheme: stl
