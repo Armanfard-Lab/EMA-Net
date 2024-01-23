@@ -1,0 +1,35 @@
+# Setup
+setup: single_task
+
+# Database
+train_db_name: nyuv2
+val_db_name: nyuv2
+trBatch: 8
+valBatch: 8
+nworkers: 4
+
+# Optimizer and scheduler
+epochs: 200
+optimizer: adam
+optimizer_kwargs:
+   lr: 0.0001
+   weight_decay: 0.0001
+scheduler: cosine
+
+# Model
+model: stl 
+backbone: hrnet_w18
+backbone_kwargs:
+   pretrained: True
+   dilated: False
+head: hrnet
+
+# Tasks
+task_dictionary:
+   include_semseg: True
+   include_depth: True
+   include_normals: True
+
+# Loss kwargs
+loss_kwargs:
+   loss_scheme: stl
