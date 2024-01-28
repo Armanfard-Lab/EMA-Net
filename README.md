@@ -21,13 +21,11 @@ You can find the preprint of our paper on [arXiv](https://arxiv.org/abs/2401.111
 
 Please cite our paper if you use the code or the results of our work.
 ```bibtex
-@misc{sinodinos2024emanet,
-      title={EMA-Net: Efficient Multitask Affinity Learning for Dense Scene Predictions}, 
-      author={Dimitrios Sinodinos and Narges Armanfard},
-      year={2024},
-      eprint={2401.11124},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{sinodinos2024ema,
+  title={EMA-Net: Efficient Multitask Affinity Learning for Dense Scene Predictions},
+  author={Sinodinos, Dimitrios and Armanfard, Narges},
+  journal={arXiv preprint arXiv:2401.11124},
+  year={2024}
 }
 ```
 
