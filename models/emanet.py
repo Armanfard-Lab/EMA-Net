@@ -3,8 +3,8 @@
 # Licensed under the CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/)
 
 """
-    Implementation of PAP-Net.
-    https://arxiv.org/abs/1906.03525
+    Implementation of EMA-Net.
+    https://arxiv.org/abs/2401.11124
 """
 import torch
 import torch.nn as nn

@@ -1,10 +1,10 @@
 #
-# Authors: Simon Vandenhende
+# Authors: Dimitrios Sinodinos, Simon Vandenhende
 # Licensed under the CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/)
 
 """ 
-    MTI-Net implementation based on HRNet backbone 
-    https://arxiv.org/pdf/2001.06902.pdf
+    Multiscale version of EMA-Net that borrows some elemnets from 
+    the MTI-Net implementation based on HRNet backbone.
 """
 import torch
 import torch.nn as nn
